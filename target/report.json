@@ -1,0 +1,223 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-08-02T01:56:18.981Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2281833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Customer can search for any used car available for sale",
+        "description": "",
+        "id": "search-for-used-car-available-for-sale;customer-can-search-for-any-used-car-available-for-sale;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 143181,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I navigate to motors homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter \"b23 7Rx\" in the post code text box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I select \"Mercedes\" from Make dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I select \"E220\" from Model dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I select \"£5000\" from Min price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I select \"£15000\" from Max Price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I click on Search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "A list of used cars for sale within that range are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-02T01:56:19.065Z",
+        "before": [
+          {
+            "result": {
+              "duration": 56015,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Customer can search for any used car available for sale",
+        "description": "",
+        "id": "search-for-used-car-available-for-sale;customer-can-search-for-any-used-car-available-for-sale;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 33359,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "I navigate to motors homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter \"B10 0us\" in the post code text box",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I select \"Audi\" from Make dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I select \"A3\" from Model dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I select \"£2000\" from Min price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "I select \"£13000\" from Max Price dropdown",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I click on Search button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "A list of used cars for sale within that range are displayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search For Used Car Available For Sale",
+    "description": "  As customer i want the ability to search for used cars availbe for sale\n  so that i can know more about the car before i buy",
+    "id": "search-for-used-car-available-for-sale",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/co/uk/motors/features/SearchUsedCarsForSale.feature",
+    "tags": []
+  }
+]
